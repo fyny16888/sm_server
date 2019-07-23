@@ -1,0 +1,13 @@
+{
+	"onXXTest": {
+		"message CardInfo": {
+			"required uInt32 cid": 1,
+			"required uInt32 lv": 2,
+			"required uInt32 mp": 3,
+			"required float powerUpPercent": 4
+		},
+		"required string test1": 1,
+		"optional uInt32 test2": 2,
+		"repeated CardInfo inHands": 3
+	}
+}
